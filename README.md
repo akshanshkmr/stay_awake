@@ -7,6 +7,6 @@ by continouusly moving mouse pointer
 Author: Akshansh kumar 20201216 
 
 ## Prerequisites
-'''
+```
 pip install puautogui
-'''
+```
