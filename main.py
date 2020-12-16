@@ -32,7 +32,7 @@ if __name__ == '__main__':
     finy =  int(resolution.height*2/3)
     speed = 30
 
-    duration = int(input("How long till we see you again?(in minutes)"))
+    duration = int(input("How long till we see you again?(in minutes): "))
 
     t_end=time.time()+duration*60
     print("Script run at {}".format(datetime.now().time()))
