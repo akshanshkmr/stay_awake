@@ -1,3 +1,12 @@
+"""
+Utility Script to prevent PC from going to sleep
+by continouusly moving mouse pointer
+
+[IMP]: to exit the script before specified time, move the mouse pointer into any corner
+
+Author: Akshansh kumar 20201216 
+"""
+
 import pyautogui
 import time
 import sys
