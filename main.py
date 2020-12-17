@@ -36,6 +36,7 @@ if __name__ == '__main__':
 
     t_end=time.time()+duration*60
     print("Script run at {}".format(datetime.now().time()))
+    print("Move the mouse pointer, into any corner to exit")
     while time.time()<t_end:
         try:
             draw_rect(initx,inity,finx,finy,speed)
