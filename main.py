@@ -21,6 +21,8 @@ def draw_rect(initx,inity,finx,finy,speed):
         pyautogui.moveTo(x,finy)
     for y in range(finy,inity,-speed):
         pyautogui.moveTo(initx,y)
+    for i in range(0,3):
+        pyautogui.press("shift")
 
 if __name__ == '__main__':
     pyautogui.FAILSAFE = True
@@ -37,6 +39,7 @@ if __name__ == '__main__':
     t_end=time.time()+duration*60
     print("Script run at {}".format(datetime.now().time()))
     print("Move the mouse pointer, into any corner to exit")
+    time.sleep(5)
     while time.time()<t_end:
         try:
             draw_rect(initx,inity,finx,finy,speed)
