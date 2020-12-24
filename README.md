@@ -8,5 +8,5 @@ Author: Akshansh kumar 20201216
 
 ## Prerequisites
 ```
-pip install puautogui
+pip install pyautogui
 ```
